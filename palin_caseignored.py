@@ -1,6 +1,6 @@
 class Palindrome:
 
-    @staticmethod
+    
     def is_palindrome(word):
         word=word.lower() #just setting all characters to lower case for simplicity
         i=len(word)
