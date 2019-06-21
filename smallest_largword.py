@@ -11,7 +11,7 @@ def smallest_largest_words(str1):
           
     small = large = all_words[0];  
    
-#Find smallest and largest word in the str1  
+ 
     for k in range(0, len(all_words)):
         if(len(small) > len(all_words[k])):
             small = all_words[k];
