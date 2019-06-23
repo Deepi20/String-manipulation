@@ -9,3 +9,7 @@ def rotate(input,d):
     #concatenating the two parts together 
     print "Left Rotation : ", (Lsecond + Lfirst) 
     print "Right Rotation : ", (Rsecond + Rfirst) 
+    if __name__ == "__main__": 
+    input = 'Thisisabeautifulworld'
+    d=2
+    rotate(input,d) 
