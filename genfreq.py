@@ -1,4 +1,6 @@
 import pandas as pd 
+
+dataset = pd.read_csv("...../user/text.csv")
 def gen_freq(text):
   word_list = []
   for words in text.split():
