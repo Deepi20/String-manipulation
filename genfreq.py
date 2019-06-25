@@ -1,3 +1,4 @@
+import pandas as pd 
 def gen_freq(text):
   word_list = []
   for words in text.split():
@@ -5,6 +6,8 @@ def gen_freq(text):
   word_freq = pd.Series(word_list).value_counts()
   word_freq[:20]
   return word_freq
+
+gen_freq(dataset.text.str)
  
     
   
