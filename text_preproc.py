@@ -7,5 +7,8 @@ def text_clean(text):
     text = re.sub(r'RT','',text)
     text = text.lower()
     return text
+
+text = dataset.text.apply(lambda x: text_clean(x))
+word_freq = gen_freq(text.str)
     
-text = text.drop(labels = STOPWORDS, errors = 'ignore')
+
